@@ -1,0 +1,17 @@
+{
+  "filename": "video-teste.mp4",
+  "parts": [
+    {
+      "channel": "-1003600617438",
+      "accessHash": "PREENCHER_ACCESS_HASH_MTProto_DO_CANAL",
+      "messageId": 1623,
+      "size": 536870912
+    },
+    {
+      "channel": "-1003600617438",
+      "accessHash": "PREENCHER_ACCESS_HASH_MTProto_DO_CANAL",
+      "messageId": 1624,
+      "size": 502802133
+    }
+  ]
+}

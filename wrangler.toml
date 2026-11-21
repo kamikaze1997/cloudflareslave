@@ -1,0 +1,13 @@
+name = "teledrive-mtproto-video-teste"
+main = "src/index.js"
+compatibility_date = "2026-11-20"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = true
+
+[[durable_objects.bindings]]
+name = "MTPROTO_DO"
+class_name = "MtprotoPiloto"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["MtprotoPiloto"]

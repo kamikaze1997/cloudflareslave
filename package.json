@@ -1,0 +1,18 @@
+{
+  "name": "teledrive-mtproto-video-direto",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test testes/*.test.mjs",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "telegram": "2.26.8",
+    "big-integer": "^1.6.52"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
